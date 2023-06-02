@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  body{
+    background:#fc8080 url(../images/bg-intro-desktop.png);
+  }
+  .container{
+    background:#fc8080 url(../images/bg-intro-desktop.png);
+    width: 100%;
+    max-width: 1220px;
+    height: auto;
+    padding: 50px;
+  display: flex;
+  }
+  .msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 80px;
+    font-size: 1.4em;
+  
+  }
+
+  .msg p{
+     margin-top: 10px;
+     font-size: 0.9em;
+  }
+  .free{
+    width: 500px;
+    border-radius: 5px;
+    height: 40px;
+    background: #411785f3;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .form{
+    display: flex;
+    width:auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  form{
+    width: 500px;
+    background: #fff;
+    border-radius: 6px;
+  }
+  input{
+    padding: 10px;
+    display: block;
+    width: 450px;
+    margin: 20px auto;
+   margin-bottom: 5px;
+  }
+  .btn{
+    background: #1ce199;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  span{
+  
+    display: block;
+    text-align: center;
+    padding: 10px 0 30px 0;
+    font-size: 0.7em;
+    color: #c4c4c4;
+  }
+ span a {
+  color: red;
+  text-decoration: none;
+ }
+ footer{
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  background: #ffff;
+ }
+ 
+ 
+ 
+ @media (max-width:530px){
+  
+   .container{
+    max-width: 400px;
+    flex-direction: column;
+    height: auto;
+    
+   }
+   .msg{
+    font-size: 1em;
+    padding: 20px 10px;
+    
+   }
+   h1,p{
+    width: 300px;
+   }
+   .msg p{
+    text-align: center;
+    line-height: 2em;
+   }
+   .free{
+    width: 300px;
+    height: 70px;
+    line-height: 20px;
+    font-size: 0.9em;
+   }
+   form{
+    width: 300px;
+    border: 1px solid black;
+   }
+  input{
+    width: 250px;
+   }
+   span{
+    width: 200px;
+    margin-left:40px;
+    font-size: 0.6em;
+   }
+   
+ }
+ @media (max-width:952px) {
+  body,.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ }
